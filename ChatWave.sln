@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34902.65
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{7D595DF5-593E-4191-B27E-E27FE1B83CE3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChatWave.Api", "src\Services\ChatWave.Api\ChatWave.Api.csproj", "{B6FD25FA-47B6-439A-B59F-068525EF8D07}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChatWave.Infrastructure", "src\Services\ChatWave.Infrastructure\ChatWave.Infrastructure.csproj", "{A76A858D-FE02-4C7E-94C6-053BC6E15583}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{23E50FD1-48A3-4F68-A644-F8775D8B0F73}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChatWave.Application", "src\Core\ChatWave.Application\ChatWave.Application.csproj", "{4C5ED229-1DED-4AAD-B1AE-17DCF0DD2527}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChatWave.Domain", "src\Services\Core\ChatWave.Domain\ChatWave.Domain.csproj", "{0E19778B-B6FA-403D-B9D8-3CD88B0B9EE6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B6FD25FA-47B6-439A-B59F-068525EF8D07}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6FD25FA-47B6-439A-B59F-068525EF8D07}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B6FD25FA-47B6-439A-B59F-068525EF8D07}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B6FD25FA-47B6-439A-B59F-068525EF8D07}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A76A858D-FE02-4C7E-94C6-053BC6E15583}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A76A858D-FE02-4C7E-94C6-053BC6E15583}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A76A858D-FE02-4C7E-94C6-053BC6E15583}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A76A858D-FE02-4C7E-94C6-053BC6E15583}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4C5ED229-1DED-4AAD-B1AE-17DCF0DD2527}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C5ED229-1DED-4AAD-B1AE-17DCF0DD2527}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C5ED229-1DED-4AAD-B1AE-17DCF0DD2527}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C5ED229-1DED-4AAD-B1AE-17DCF0DD2527}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0E19778B-B6FA-403D-B9D8-3CD88B0B9EE6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E19778B-B6FA-403D-B9D8-3CD88B0B9EE6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E19778B-B6FA-403D-B9D8-3CD88B0B9EE6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E19778B-B6FA-403D-B9D8-3CD88B0B9EE6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B6FD25FA-47B6-439A-B59F-068525EF8D07} = {7D595DF5-593E-4191-B27E-E27FE1B83CE3}
+		{A76A858D-FE02-4C7E-94C6-053BC6E15583} = {7D595DF5-593E-4191-B27E-E27FE1B83CE3}
+		{23E50FD1-48A3-4F68-A644-F8775D8B0F73} = {7D595DF5-593E-4191-B27E-E27FE1B83CE3}
+		{4C5ED229-1DED-4AAD-B1AE-17DCF0DD2527} = {23E50FD1-48A3-4F68-A644-F8775D8B0F73}
+		{0E19778B-B6FA-403D-B9D8-3CD88B0B9EE6} = {23E50FD1-48A3-4F68-A644-F8775D8B0F73}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CE5249E0-E6C6-4F42-B9DB-394C546D3284}
+	EndGlobalSection
+EndGlobal
